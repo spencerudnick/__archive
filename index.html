@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoro | music</title>
+  <meta name="description" content="Music by Shoro">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="site-container">
+      <h1>Shoro</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://shoro.bandcamp.com" target="_blank">Bandcamp</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/shoro_kit" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://synth.kitchen" target="_blank">Synth Kitchen</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="site-container">
+      <section>
+        <h2>Releases</h2>
+        <div id="releases" class="responsive-grid" class="visually-hidden"></div>
+      </section>
+      <section class="playlist">
+        <h2 class="visually-hidden">Now Playing</h2>
+        <div id="playlist" tabindex="-1"></div>
+        <label role="button" id="play-pause-label" for="play-pause" tabindex="0"><span></span></label>
+        <input id="play-pause" type="checkbox" hidden />
+      </section>
+      <audio hidden>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
